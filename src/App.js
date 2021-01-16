@@ -1,8 +1,8 @@
 import React from 'react'
-import placeholder from './components/placeholder'
+import Hoverboard from './components/Hoverboard'
 
 const App = () => {
-  return <placeholder />
+  return <Hoverboard />
 }
 
 export default App
