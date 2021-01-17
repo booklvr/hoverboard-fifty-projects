@@ -29884,7 +29884,7 @@ var Square = function Square() {
     background: randomColor,
     boxShadow: "0 0 2px ".concat(randomColor, ", 0 0 10px ").concat(randomColor, "\n    }")
   } : {
-    background: '#1d1d1d',
+    background: '#111',
     boxShadow: '0 0 2px #000'
   };
   return /*#__PURE__*/_react.default.createElement("div", {
@@ -29990,7 +29990,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61804" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51165" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -26,15 +26,20 @@ body {
   max-width: 400px;
 }
 .container .square {
-  background-color: #1d1d1d;
+  background-color: #111;
+  border-radius: 50%;
   box-shadow: 0 0 2px #000;
   height: 16px;
   width: 16px;
-  margin: 2px;
+  margin: 0;
+  padding: 0;
   transition: 2s ease;
 }
 .container .square:hover {
   transition-duration: 0s;
+}
+.container .square:focus {
+  outline: none;
 }
 
 /*# sourceMappingURL=/src.7ed060e2.css.map */
