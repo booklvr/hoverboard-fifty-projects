@@ -15,7 +15,7 @@ const Square = () => {
         boxShadow: `0 0 2px ${randomColor}, 0 0 10px ${randomColor}
     }`,
       }
-    : { background: '#1d1d1d', boxShadow: '0 0 2px #000' }
+    : { background: '#111', boxShadow: '0 0 2px #000' }
 
   return (
     <div
